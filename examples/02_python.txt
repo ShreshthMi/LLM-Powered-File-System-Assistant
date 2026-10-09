@@ -1,0 +1,32 @@
+You: Find resumes mentioning Python experience
+🔧 list_files({"directory": "resumes"})
+   → 8 files
+🔧 search_in_file({"filepath": "resumes/resume_aisha_bello.docx", "keyword": "Python"})
+   → 0 matches
+🔧 search_in_file({"filepath": "resumes/resume_david_kim.txt", "keyword": "Python"})
+   → 2 matches
+🔧 search_in_file({"filepath": "resumes/resume_elena_rodriguez.docx", "keyword": "Python"})
+   → 3 matches
+🔧 search_in_file({"filepath": "resumes/resume_john_doe.pdf", "keyword": "Python"})
+   → 4 matches
+🔧 search_in_file({"filepath": "resumes/resume_john_smith.docx", "keyword": "Python"})
+   → 0 matches
+🔧 search_in_file({"filepath": "resumes/resume_marcus_chen.pdf", "keyword": "Python"})
+   → 0 matches
+🔧 search_in_file({"filepath": "resumes/resume_priya_sharma.pdf", "keyword": "Python"})
+   → 2 matches
+🔧 search_in_file({"filepath": "resumes/resume_sofia_novak.txt", "keyword": "Python"})
+   → 1 match
+
+Assistant: I searched all 8 resumes. **4 of them mention Python as work experience:**
+
+| Resume | Python experience |
+|---|---|
+| **resume_john_doe.pdf** | The strongest match. Backend engineer with 8 years building web services in Django/Python and FastAPI. He led a rewrite of a Django/Python API that cut p95 latency (slowest 5% of requests) from 900 ms to 180 ms. He also built billing microservices in Python 3 and FastAPI serving 40,000 customers. |
+| **resume_david_kim.txt** | Machine learning engineer with 6 years of experience. He writes production Python/NumPy and PyTorch code that is tested, profiled and monitored. Python is also listed in his skills. |
+| **resume_priya_sharma.pdf** | Data scientist who builds forecasting and churn models in Python 3, using pandas, scikit-learn and statsmodels. |
+| **resume_elena_rodriguez.docx** | Site reliability engineer who writes operational scripts in Python and Bash. She wrote Python automation that rotates credentials across 300 services with zero downtime. Python is less central for her than for the other three. |
+
+**Not a match:**
+- **resume_sofia_novak.txt** says "Python" only in her interests ("quoting Monty Python"), which isn't programming experience.
+- **resume_aisha_bello.docx**, **resume_john_smith.docx** and **resume_marcus_chen.pdf** don't mention Python at all.

@@ -1,0 +1,5 @@
+You: Tell me a joke.
+
+Assistant: Why did the resume go to therapy?
+
+It had too many unresolved issues in its "work history."

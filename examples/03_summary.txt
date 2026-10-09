@@ -1,0 +1,19 @@
+You: Create a summary file for resume_john_doe.pdf
+🔧 read_file({"filepath": "resumes/resume_john_doe.pdf"})
+   → read 1,215 characters, 1 page
+🔧 write_file({"filepath": "summaries/resume_john_doe_summary.md", "content": "# John Doe — Resume Summary\n\n**Source file:** resumes/resume_john_doe.pdf\n**Curr… (1,489 chars)"})
+   → wrote 1,507 bytes to summaries/resume_john_doe_summary.md
+
+Assistant: I saved the summary to **summaries/resume_john_doe_summary.md**.
+
+**About resume_john_doe.pdf:**
+- **Who:** John Doe, Senior Backend Engineer in Austin, TX, with 8 years of experience.
+- **Main skills:** Python, Django, FastAPI, Celery, PostgreSQL, Redis, Docker, AWS (ECS, RDS, S3), REST and GraphQL APIs, pytest.
+- **Current job:** Brightline Logistics (2021–present).
+  - He led a rewrite of the shipment-tracking API, cutting p95 latency from 900 ms to 180 ms.
+  - He built a system that handles 2 million status updates a day.
+  - He mentored four engineers.
+- **Earlier jobs:**
+  - Pinecrest Software (2018–2021): built billing services for 40,000 customers.
+  - Orbitflow (2016–2018): junior developer.
+- **Education:** B.S. in Computer Science (2016) and an AWS Certified Developer – Associate certification.

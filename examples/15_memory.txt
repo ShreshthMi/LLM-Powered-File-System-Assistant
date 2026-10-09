@@ -1,0 +1,59 @@
+You: Which resumes mention Kotlin?
+Does she have Python experience?
+Save a two-line note about her to notes/sofia.md
+/new
+What is the capital of France?
+exit
+
+LLM File Assistant - claude-opus-5-5 via Anthropic
+Files: /private/tmp/llm-fs-live/root
+Ask about the resumes in this folder. Type /new for a fresh conversation, or exit to quit.
+
+You: 🔧 list_files({"directory": "resumes"})
+   → 8 files
+🔧 search_in_file({"filepath": "resumes/resume_aisha_bello.docx", "keyword": "Kotlin"})
+   → 0 matches
+🔧 search_in_file({"filepath": "resumes/resume_david_kim.txt", "keyword": "Kotlin"})
+   → 0 matches
+🔧 search_in_file({"filepath": "resumes/resume_elena_rodriguez.docx", "keyword": "Kotlin"})
+   → 0 matches
+🔧 search_in_file({"filepath": "resumes/resume_john_doe.pdf", "keyword": "Kotlin"})
+   → 0 matches
+🔧 search_in_file({"filepath": "resumes/resume_john_smith.docx", "keyword": "Kotlin"})
+   → 0 matches
+🔧 search_in_file({"filepath": "resumes/resume_marcus_chen.pdf", "keyword": "Kotlin"})
+   → 0 matches
+🔧 search_in_file({"filepath": "resumes/resume_priya_sharma.pdf", "keyword": "Kotlin"})
+   → 0 matches
+🔧 search_in_file({"filepath": "resumes/resume_sofia_novak.txt", "keyword": "Kotlin"})
+   → 3 matches
+
+Assistant: I searched all 8 resumes, and only **resume_sofia_novak.txt** mentions Kotlin. It comes up 3 times, all as work experience:
+
+- **Summary:** She's a mobile engineer with 6 years of experience building native apps in Swift and Kotlin.
+- **Skills:** Kotlin is listed with Jetpack Compose, Coroutines and Room.
+- **Experience:** She built offline sync for an Android app using Kotlin coroutines and Room.
+
+None of the other 7 resumes mention Kotlin.
+
+You: 🔧 search_in_file({"filepath": "resumes/resume_sofia_novak.txt", "keyword": "Python", "whole_word": true})
+   → 1 match
+
+Assistant: No, **resume_sofia_novak.txt** doesn't show any Python programming experience. The word "Python" appears only once, in her **Interests** section: *"quoting Monty Python at inappropriate moments"*. That's the comedy group, not the programming language.
+
+Her listed skills are mobile-focused: Swift, SwiftUI, Kotlin, Jetpack Compose, Coroutines, Core Data, Room, Firebase, GraphQL, XCTest and Espresso.
+
+You: 🔧 write_file({"filepath": "notes/sofia.md", "content": "Sofia Novak (resume_sofia_novak.txt): Mobile engineer with 6 years of native app… (282 chars)"})
+   → wrote 282 bytes to notes/sofia.md
+
+Assistant: I saved the note to **notes/sofia.md**. It's a new file, so nothing was overwritten. It says:
+
+> Sofia Novak (resume_sofia_novak.txt): Mobile engineer with 6 years of native app experience in Swift and Kotlin (SwiftUI, Jetpack Compose, Coroutines, Room, Core Data, Firebase, GraphQL).
+> No Python programming experience; the only "Python" mention is Monty Python in her interests.
+
+You: Started a new conversation.
+
+You: 
+Assistant: The capital of France is **Paris**.
+
+You: Goodbye!

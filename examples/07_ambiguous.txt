@@ -1,0 +1,10 @@
+You: Look into John's file.
+🔧 list_files({"directory": "resumes"})
+   → 8 files
+
+Assistant: I found two resumes for people named John:
+
+- **resume_john_doe.pdf**
+- **resume_john_smith.docx**
+
+Which one do you want me to look at, John Doe or John Smith? I can also go through both. And let me know what you need, such as a summary, specific skills or work history.

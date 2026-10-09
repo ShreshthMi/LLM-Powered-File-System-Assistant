@@ -1,0 +1,22 @@
+You: Read resumes/nobody.pdf
+🔧 read_file({"filepath": "resumes/nobody.pdf"})
+   → error: File not found: 'resumes/nobody.pdf'. Use list_files to see what exists.
+🔧 list_files({"directory": "resumes"})
+   → 8 files
+
+Assistant: I couldn't open `resumes/nobody.pdf` because there's no file with that name. None of the files in the `resumes` folder have a name close to "nobody" either.
+
+These are the files that are there:
+
+| File | Type |
+|---|---|
+| resume_aisha_bello.docx | DOCX |
+| resume_david_kim.txt | TXT |
+| resume_elena_rodriguez.docx | DOCX |
+| resume_john_doe.pdf | PDF |
+| resume_john_smith.docx | DOCX |
+| resume_marcus_chen.pdf | PDF |
+| resume_priya_sharma.pdf | PDF |
+| resume_sofia_novak.txt | TXT |
+
+Which one would you like me to read? If the file is saved in a different folder, tell me where and I'll look there.

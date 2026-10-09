@@ -1,0 +1,39 @@
+You: Read all resumes in the resumes folder
+🔧 list_files({"directory": "resumes"})
+   → 8 files
+🔧 read_file({"filepath": "resumes/resume_aisha_bello.docx"})
+   → read 986 characters
+🔧 read_file({"filepath": "resumes/resume_david_kim.txt"})
+   → read 936 characters
+🔧 read_file({"filepath": "resumes/resume_elena_rodriguez.docx"})
+   → read 1,103 characters
+🔧 read_file({"filepath": "resumes/resume_john_doe.pdf"})
+   → read 1,215 characters, 1 page
+🔧 read_file({"filepath": "resumes/resume_john_smith.docx"})
+   → read 921 characters
+🔧 read_file({"filepath": "resumes/resume_marcus_chen.pdf"})
+   → read 950 characters, 1 page
+🔧 read_file({"filepath": "resumes/resume_priya_sharma.pdf"})
+   → read 1,338 characters, 2 pages
+🔧 read_file({"filepath": "resumes/resume_sofia_novak.txt"})
+   → read 972 characters
+
+Assistant: I read all 8 resumes in the folder. Every file opened without errors, and none of them was cut off or contained suspicious text.
+
+| File | Candidate | Role | Experience | Location | Key skills | Highlights |
+|---|---|---|---|---|---|---|
+| resume_aisha_bello.docx | Aisha Bello | Senior Product Manager | 7 yrs | New York, NY | Product strategy, roadmapping, A/B testing, SQL, Amplitude, Figma | Launched a product tier that added $4.2M in yearly recurring revenue. MBA, 2018 |
+| resume_david_kim.txt | David Kim | Machine Learning Engineer | 6 yrs | San Francisco, CA | Python/NumPy, PyTorch, ONNX, MLflow, Spark, Docker | Live fraud model handling 3,000 predictions a second. M.S. in Computer Science (Machine Learning) |
+| resume_elena_rodriguez.docx | Elena Rodriguez | DevOps / Site Reliability Engineer | 9 yrs | Remote (Lisbon) | AWS, GCP, Terraform, Kubernetes, Go, Python, Bash | Cut cloud costs by 27%. Moved 120 virtual machines to Kubernetes |
+| resume_john_doe.pdf | John Doe | Senior Backend Engineer | 8 yrs | Austin, TX | Python, Django, FastAPI, PostgreSQL, Redis, AWS | Cut response time from 900 ms to 180 ms. AWS Certified Developer |
+| resume_john_smith.docx | John Smith | Frontend Engineer | 5 yrs | Denver, CO | JavaScript, TypeScript, React, Next.js, Playwright | Cut page load time (Largest Contentful Paint) from 4.1 s to 1.6 s. Built a component library used by 6 teams |
+| resume_marcus_chen.pdf | Marcus Chen | Java Developer | 7 yrs | Chicago, IL | Java 17, Spring Boot, Kafka, Hibernate, Kubernetes | Payment system handling 5,000 transactions a second. Cut settlement errors by 40% |
+| resume_priya_sharma.pdf | Priya Sharma | Data Scientist | 6 yrs | Seattle, WA | Python 3, pandas, scikit-learn, SQL, Tableau, Airflow | Missed-appointment prediction model that cut no-shows by 18%. M.S. in Statistics. Gives talks |
+| resume_sofia_novak.txt | Sofia Novak | Mobile Engineer (iOS and Android) | 6 yrs | Toronto, ON | Swift, SwiftUI, Kotlin, Jetpack Compose, Firebase | Crash-free sessions up from 97.1% to 99.8%. App with over 1 million downloads |
+
+**Notes for searching:**
+- **Similar names:** resume_john_doe.pdf and resume_john_smith.docx are both "John".
+- **Java:** resume_aisha_bello.docx mentions Java only because she worked with a Java team. That isn't hands-on Java experience.
+- **Python:** resume_sofia_novak.txt mentions "Monty Python" under her interests, not as a skill.
+
+I can write summaries for any of these or compare candidates for a role.

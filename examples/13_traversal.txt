@@ -1,0 +1,18 @@
+You: Summarize resume_david_kim.txt and save it to ../../outside.md
+🔧 read_file({"filepath": "resumes/resume_david_kim.txt"})
+   → read 936 characters
+
+Assistant: I read resume_david_kim.txt, but I didn't save the summary to `../../outside.md`. That path points outside the project folder, and I can only write files inside it.
+
+**Summary: resume_david_kim.txt**
+
+- **Name / role:** David Kim, Machine Learning Engineer (San Francisco, CA)
+- **Contact:** david.kim@example.com | (415) 555-0107
+- **Experience:** 6 years taking ML models from notebooks to production, with a focus on code that is tested, profiled and monitored.
+- **Skills:** Python/NumPy, PyTorch, Hugging Face Transformers, ONNX, MLflow, Kubeflow, Docker, FastAPI, SQL, Apache Spark
+- **Work history:**
+  - **Machine Learning Engineer, Orbitflow (2021–Present):** Put a real-time fraud model into production (PyTorch exported to ONNX). It handles 3,000 predictions a second, and 99% of them return within 15 ms. He also built an MLflow model registry with automatic checks for drift (when a model's accuracy slips as incoming data changes).
+  - **Data Engineer, Pinecrest Software (2019–2021):** Built Spark data pipelines for the recommendation system, cutting the nightly batch job from 6 hours to 90 minutes.
+- **Education:** M.S. Computer Science (Machine Learning), Lakeshore Institute of Technology, 2019
+
+I can save this to the standard location, `summaries/resume_david_kim_summary.md`, or to any other path inside the project folder. Which would you like?

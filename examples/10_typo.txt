@@ -1,0 +1,5 @@
+You: List files in data/resumess/
+🔧 list_files({"directory": "data/resumess/"})
+   → error: Folder not found: 'data/resumess'. Did you mean 'resumes'?
+
+Assistant: I couldn't list that folder because `data/resumess/` doesn't exist. The tool suggested `resumes` instead, which is the project's main resume folder. Should I list the files in `resumes`?

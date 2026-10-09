@@ -1,0 +1,56 @@
+{
+  "mode": "live",
+  "duration_seconds": 177.0,
+  "resolution": "1920x1080",
+  "fps": 30,
+  "source": "captured CLI stdout; pauses shortened",
+  "chapters": [
+    {
+      "id": "intro",
+      "duration": 18,
+      "title": "A conversation with your files"
+    },
+    {
+      "id": "tools",
+      "duration": 19,
+      "title": "Four tools. Three document formats."
+    },
+    {
+      "id": "loop",
+      "duration": 18,
+      "title": "Claude chooses the next action"
+    },
+    {
+      "id": "read",
+      "duration": 21,
+      "title": "01 \u00b7 Read every resume"
+    },
+    {
+      "id": "search",
+      "duration": 21,
+      "title": "02 \u00b7 Find Python experience"
+    },
+    {
+      "id": "write",
+      "duration": 19,
+      "title": "03 \u00b7 Create a summary file"
+    },
+    {
+      "id": "summary",
+      "duration": 19,
+      "title": "The saved artifact"
+    },
+    {
+      "id": "quality",
+      "duration": 22,
+      "title": "Failures become useful feedback"
+    },
+    {
+      "id": "end",
+      "duration": 20,
+      "title": "Ready to explore"
+    }
+  ],
+  "narration": "macOS Samantha, synthesized",
+  "captions": "English, embedded and external SRT"
+}

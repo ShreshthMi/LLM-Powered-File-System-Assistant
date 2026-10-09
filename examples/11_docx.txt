@@ -1,0 +1,12 @@
+You: What is Elena Rodriguez's email address, and which programming languages does she list?
+🔧 list_files({"directory": "resumes"})
+   → 8 files
+🔧 read_file({"filepath": "resumes/resume_elena_rodriguez.docx"})
+   → read 1,103 characters
+
+Assistant: Here's what resume_elena_rodriguez.docx says:
+
+- **Email:** elena.rodriguez@example.com
+- **Programming languages (from her Skills section):** Go, Python and Bash
+
+Her experience section backs these up. She builds release tools in Go, and she writes Python automation, including a tool that rotates credentials across 300 services. She also writes operational scripts in Bash.
