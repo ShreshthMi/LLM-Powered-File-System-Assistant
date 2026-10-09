@@ -1,0 +1,24 @@
+DAVID KIM
+Machine Learning Engineer
+david.kim@example.com | (415) 555-0107 | San Francisco, CA
+
+SUMMARY
+-------
+Machine learning engineer with 6 years of experience taking models from notebook to production. Writes Python/NumPy and PyTorch code that is tested, profiled and monitored.
+
+SKILLS
+------
+Python/NumPy, PyTorch, Hugging Face Transformers, ONNX, MLflow, Kubeflow, Docker, FastAPI, SQL, Apache Spark
+
+EXPERIENCE
+----------
+Machine Learning Engineer - Orbitflow (2021 - Present)
+  * Deployed a real-time fraud model (PyTorch exported to ONNX) serving 3,000 predictions a second at 15 ms p99.
+  * Built an MLflow model registry with automated drift monitoring.
+
+Data Engineer - Pinecrest Software (2019 - 2021)
+  * Built Spark pipelines for the recommendation system, cutting the nightly batch from 6 hours to 90 minutes.
+
+EDUCATION
+---------
+  * M.S. Computer Science (Machine Learning), Lakeshore Institute of Technology, 2019

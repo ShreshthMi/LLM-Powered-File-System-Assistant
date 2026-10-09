@@ -1,0 +1,28 @@
+SOFIA NOVAK
+Mobile Engineer (iOS and Android)
+sofia.novak@example.com | (415) 555-0108 | Toronto, ON
+
+SUMMARY
+-------
+Mobile engineer with 6 years of experience shipping native apps in Swift and Kotlin. Focused on smooth UX, offline-first data sync and crash-free releases.
+
+SKILLS
+------
+Swift, SwiftUI, Kotlin, Jetpack Compose, Coroutines, Core Data, Room, Firebase, GraphQL, XCTest, Espresso, Fastlane
+
+EXPERIENCE
+----------
+Senior Mobile Engineer - Kestrel Mobile (2021 - Present)
+  * Led the rewrite of the iOS app in SwiftUI; crash-free sessions rose from 97.1% to 99.8%.
+  * Built offline sync for the Android app with Kotlin coroutines and Room.
+
+Mobile Developer - Mosaic Learning (2018 - 2021)
+  * Built the flashcard app (more than 1 million downloads) for iOS and Android.
+
+EDUCATION
+---------
+  * B.Sc. Computer Science, Riverside State University, 2018
+
+INTERESTS
+---------
+Rock climbing, film photography, and quoting Monty Python at inappropriate moments.
