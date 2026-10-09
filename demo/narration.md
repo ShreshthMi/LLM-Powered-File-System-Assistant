@@ -37,4 +37,3 @@ Missing files return structured errors rather than crashing the conversation. To
 ## 9. Ready to explore
 
 To run the project, install the pinned requirements and set your Anthropic API key. Multi workspace keys also need a workspace ID. Start the interactive chat, or pass a question directly. The repository includes the three example queries, captured transcripts, the generated summary, and the validation report. Every file action remains visible in the tool log.
-

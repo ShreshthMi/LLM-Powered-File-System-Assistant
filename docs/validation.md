@@ -64,4 +64,6 @@ These results apply to the fictional fixtures and recorded model configuration. 
 
 ## Submission checks
 
-The pinned requirements installed successfully in a clean temporary environment, where the full suite passed. The video was visually inspected and decoded without errors. Source syntax, function documentation, local README links and a credential scan passed. The API key and runtime summary directory are excluded from Git.
+The pinned requirements installed successfully in a clean temporary environment. A fresh Git clone then passed all **257 tests** in 17.38 seconds at **94% coverage**, and `pip check` reported no broken requirements. The video was visually inspected and decoded without errors. Source syntax, function documentation, local README links and a credential scan passed. The API key and runtime summary directory are excluded from Git.
+
+A final [live fresh-clone query](../examples/fresh_clone.txt) used the default model and medium effort, listed all eight fictional resumes, and confirmed the project sandbox works when launched from another folder. Credentials were supplied privately through environment variables; no `.env` was copied into the clone. A scan of every Git blob confirmed no saved API key is present in the committed history.

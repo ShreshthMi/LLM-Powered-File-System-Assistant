@@ -1,0 +1,8 @@
+# Document and media artifacts should be treated as binary.
+*.pdf binary
+*.docx binary
+*.mp4 binary
+*.png binary
+
+# Captured terminal prompts retain their original whitespace.
+examples/*.txt -whitespace

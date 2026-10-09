@@ -1,0 +1,17 @@
+🔧 list_files({"directory": "resumes"})
+   → 8 files
+
+Assistant: There are **8 resumes** in the `resumes` folder:
+
+| # | File | Type | Size |
+|---|------|------|------|
+| 1 | resume_aisha_bello.docx | DOCX | 37.3 KB |
+| 2 | resume_david_kim.txt | TXT | 0.9 KB |
+| 3 | resume_elena_rodriguez.docx | DOCX | 38.1 KB |
+| 4 | resume_john_doe.pdf | PDF | 2.9 KB |
+| 5 | resume_john_smith.docx | DOCX | 37.2 KB |
+| 6 | resume_marcus_chen.pdf | PDF | 2.7 KB |
+| 7 | resume_priya_sharma.pdf | PDF | 3.5 KB |
+| 8 | resume_sofia_novak.txt | TXT | 1.0 KB |
+
+By type, that's 3 PDF, 3 DOCX and 2 TXT files. All of them were last changed on 9 Oct 2026. Two candidates are named John (resume_john_doe.pdf and resume_john_smith.docx), so tell me the full file name when you mean one of them.
