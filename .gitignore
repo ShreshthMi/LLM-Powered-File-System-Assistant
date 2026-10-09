@@ -1,0 +1,25 @@
+# Virtual environment
+.venv/
+venv/
+
+# Local settings
+.env
+
+# Record of files written by the assistant (fs_tools)
+.fs_tools_written.json
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+
+# macOS
+.DS_Store
+
+# Assistant-generated runtime output; committed examples live in examples/
+summaries/
+
+# Video production assets are local; publish only the finished deliverables
+.demo-build/

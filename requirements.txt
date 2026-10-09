@@ -1,0 +1,14 @@
+# Runtime: Anthropic Messages API and document extraction
+anthropic==1.12.1
+pypdf==6.19.0
+cryptography==50.0.2
+python-docx==1.2.0
+python-dotenv==1.2.4
+
+# Reproducible sample resumes
+reportlab==5.0.1
+
+# Offline tests
+pytest==9.1.1
+pytest-cov==7.1.0
+httpx2==2.13.1
